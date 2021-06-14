@@ -1,8 +1,8 @@
 
 Distilling the Knowledge in a Neural Network
 ==
-* Pytorch Implementation of "Distilling the Knowledge in a Neural Network" on **CIFAR10 Dataset**.
-* * Reference: [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) **NIPS Workshop 2014**
+* Pytorch Implementation of "Distilling the Knowledge in a Neural Network" with **CIFAR10 Dataset**
+* Reference: [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) **NIPS Workshop 2014**
 * **Author**: `Minseong Kim`(tyui592@gmail.com)
 
 Usage
@@ -21,11 +21,6 @@ $ python main.py --train_flag --gpu_no 0 --data CIFAR10 --batch_size 128 --epoch
 ### 3. Train a Small Network (with knowledge distillation)
 ```bash
 $ python main.py --train_flag --gpu_no 0 --data CIFAR10 --batch_size 128 --epoch 300 --lr 0.1 --optim SGD --sgd_momentum 0.9 --num_workers 4 --weight_decay 0.0005 --save_path ./WEIGHTS/2 --model 1 --temperature 30 --distillation_weight 0.1 --scheduler MStepLR --lr_milestones 150 225 --print_interval 50 --valid_interval 20 --teacher_load ./WEIGHTS/0/check_point_300.pth
-```
-
-### Validate The Trained Network
-```bash
-$ python main.py --gpu_no 0
 ```
 
 Top-1 Accuracy
