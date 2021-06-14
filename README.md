@@ -27,7 +27,7 @@ Top-1 Accuracy
 --
 Top-1 accuracy of the trained model (300 epochs) with CIFAR10 Test Dataset.
 
-Check more details in scripts.sh
+Check more details in [scripts.sh](https://github.com/tyui592/knowledge_distillation/blob/master/scripts.sh) and [logs](https://drive.google.com/drive/folders/1R6Dhz5R19B2phRLqEg-Ic-h7AyJ6-aL7?usp=sharing)
 
 #### Base Models
 | Large Network | Small Network (w/o distillation) |
