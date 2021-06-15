@@ -5,6 +5,11 @@ Distilling the Knowledge in a Neural Network
 * Reference: [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) **NIPS Workshop 2014**
 * **Author**: `Minseong Kim`(tyui592@gmail.com)
 
+Requirements
+--
+- torch (version: 1.7.1)
+- torchvision (version: 0.8.2)
+
 Usage
 --
 
