@@ -99,7 +99,7 @@ def get_arguments():
 
 def set_dependent_arguments(args):
     # set num class
-    if args.data in ['MINST', 'CIFAR10']:
+    if args.data in ['MNIST', 'CIFAR10']:
         args.num_class = 10
 
     elif args.data in ['CIFAR100']:
