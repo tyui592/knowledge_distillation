@@ -3,7 +3,6 @@ Distilling the Knowledge in a Neural Network
 ==
 * Unofficial Pytorch Implementation of "Distilling the Knowledge in a Neural Network" with **CIFAR10 Dataset**
 * Reference: [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) **NIPS Workshop 2014**
-* **Author**: `Minseong Kim`(tyui592@gmail.com)
 
 Requirements
 --
